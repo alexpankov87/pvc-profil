@@ -1,0 +1,215 @@
+@media (max-width: 700px) {
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 209px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #navbar .item-navbar a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 0px 0px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    #menu-toggle:checked~.menu li {
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: white;
+        background-color: var(--grey-color);
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    .menu.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        margin-top: 0;
+    }
+    .menu.sticky.opened {
+        margin-top: 209px;
+        /* Возвращаем margin-top при открытом меню */
+    }
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+body {
+    width: 100%;
+    overflow-x: hidden;
+    }
+
+    .grid-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .title-text>h1{
+        font-size: 19px;
+        display: none;
+    }
+    
+    .context-banner-text {
+        flex-direction: column;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .glass-btn {
+        width: 160px;
+    }
+
+    .days-work {
+        margin-left: 10px;
+    }
+    
+    .imstagram-block {
+        flex-direction: column;
+    }
+
+    .video-instagram {
+        padding-right: 0px;
+    }
+
+    .video-instagram>video {
+        width: 350px;
+        height: 350px;
+    }
+    .text-about-factory {
+        width: 350px;
+    }
+
+    .text-about-factory > span {
+        font-size: 23px;
+    }
+
+    .our-advantage>.our-title>h2 {
+        font-size: 25px;
+    }
+    .our-content {
+        width: 385px;
+    }
+
+    .first-link>p {
+        font-size: 14px;
+    }
+    .first-link> img {
+        width: 50px;
+    }
+
+    .second-link > p{
+        font-size: 14px;
+    }
+
+    .second-link>img {
+        width: 50px;
+    }
+
+    .third-link>p {
+        font-size: 14px;
+    }
+
+    .third-link>img {
+        width: 50px;
+    }
+
+    
+    .four-link>p {
+        font-size: 14px;
+    }
+
+    .four-link>img {
+        width: 50px;
+    }
+
+    .five-link>p {
+        font-size: 14px;
+    }
+
+    .five-link>img {
+        width: 50px;
+    }
+
+    .slider {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .slr{
+        height: 475px;
+        margin-right: 0px;
+    }
+        
+    .slider-title-desc>img {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    .slider-text {
+        margin-left: 20px;
+    }
+
+    .slider-text>span {
+        font-size: 18px;
+    }
+
+    .form-feedsback_bg { 
+        width: 475px;
+    }
+
+    .name-input>input {
+        width: 388px;
+    }
+
+    .phone-input>input{
+        width: 388px;
+    }
+
+    .footer-contacts {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .our-address {
+        border-bottom: 1px solid var(--grey-color);
+    }
+
+    .our-schedule {
+        border-bottom: 1px solid var(--grey-color);
+    }
+}
+
