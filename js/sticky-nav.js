@@ -15,9 +15,9 @@ $(window).scroll(function () {
     });
 
     function updateMenuStyles() {
-        var scrollTop = $(window).scrollTop();
-        var windowWidth = $(window).width();
-        var $menu = $('.menu');
+        let scrollTop = $(window).scrollTop();
+        let windowWidth = $(window).width();
+        let $menu = $('.menu');
 
         if (windowWidth <= 700) {
             if (scrollTop > 100) {
