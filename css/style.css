@@ -1154,6 +1154,7 @@ header {
     margin-left: 46px;
     background-color: var(--backgr-grey-light);
     font-size: 18px;
+    color: var(--dark-grey);
 }
 
 .name-input>input::placeholder {
@@ -1187,6 +1188,7 @@ header {
     margin-left: 46px;
     background-color: var(--backgr-grey-light);
     font-size: 18px;
+    color: var(--dark-grey);
 }
 
 .phone-input>input::placeholder {
