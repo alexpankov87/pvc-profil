@@ -1,18 +1,7 @@
- function submitForm() {
-        let form = document.getElementById('feedback-form');
+function submitForm() {
+    let form = document.getElementById('feedback-form');
 
-        if (!form.checkValidity()) {
-
-            Swal.fire({
-                icon: "error",
-                title: "Ошибка",
-                text: "Пожалуйста, заполните все обязательные поля правильно.",
-                confirmButtonColor: '#f24822',
-                confirmButtonText: 'Окей'
-            });
-            return;
-        }
-
+    if (form.checkValidity()) {
         let formData = new FormData(form);
 
         let xhr = new XMLHttpRequest();
@@ -29,7 +18,7 @@
                             icon: "success",
                             title: "Успех",
                             text: "Форма успешно отправлена!",
-                            confirmButtonColor: '#f24822',
+                            confirmButtonColor: '#ffd700',
                             confirmButtonText: 'Окей'
                         });
                     } else {
@@ -56,4 +45,7 @@
         };
 
         xhr.send(new URLSearchParams(formData));
+    } else {
+        form.reportValidity();
     }
+}

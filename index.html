@@ -260,7 +260,7 @@
                         <div class="form-subtitle">
                             <h3>Заказать звонок</h3>
                         </div>
-                        <form action="" method="post" class="form-feedback" id="feedback-form">
+                        <form action="/mailsender.php" method="post" class="form-feedback" id="feedback-form">
                             <div class="name-input">
                                 <label for="feedback-name">Имя:</label>
                                 <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные"
@@ -268,8 +268,7 @@
                             </div>
                             <div class="phone-input">
                                 <label for="feedback-phone">Телефон:</label>
-                                <input required type="text" id="feedback-phone" name="feedback-phone" placeholder="Введите ваш номер"
-                                    pattern="(\+?\d{11})?">
+                                <input required type="text" id="feedback-phone" name="feedback-phone" placeholder="Введите ваш номер">
                             </div>
                             <label for="feedback-checkbox" class="form-feedback-container-checkbox">
                                 <input type="checkbox" checked="checked" name="feedback-checkbox" id="feedback-checkbox">
@@ -277,7 +276,7 @@
                                 Согласен предоставить персональные данные
                             </label>
                             <div class="form-feedback-btn">
-                                <input type="hidden" name="source_page" value="Наши услуги">
+                                <input type="hidden" name="source_page" value="Форма обратной связи">
                                 <button type="button" onclick="submitForm()">
                                     Отправить
                                 </button>
@@ -363,6 +362,7 @@
     <script src="js/upbtn.js"></script>
     <script src="js/yamap.js"></script>
     <script src="js/sticky-nav.js"></script>
+
 
     <script>
         $(document).ready(function () {
