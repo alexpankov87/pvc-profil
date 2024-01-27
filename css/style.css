@@ -1153,6 +1153,7 @@ header {
     width: 408px;
     margin-left: 46px;
     background-color: var(--backgr-grey-light);
+    font-size: 18px;
 }
 
 .name-input>input::placeholder {
@@ -1185,6 +1186,7 @@ header {
     width: 408px;
     margin-left: 46px;
     background-color: var(--backgr-grey-light);
+    font-size: 18px;
 }
 
 .phone-input>input::placeholder {
