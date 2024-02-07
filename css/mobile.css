@@ -211,5 +211,9 @@ body {
     .our-schedule {
         border-bottom: 1px solid var(--grey-color);
     }
+
+    .parsek-img {
+        width: 100%;
+    }
 }
 
