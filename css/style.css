@@ -1569,6 +1569,7 @@ footer {
     width: 100%;
     padding-right: 5px;
     transition: 0.5s;
+    border-radius: 5px;
 }
 .parsek-img-profile:hover>img {
     transform: scale(1.2);
@@ -1580,6 +1581,13 @@ footer {
     object-fit: fill;
     width: 100%;
     padding-right: 5px;
+    transition: 0.5s;
+}
+
+.parsek-second-img-profile:hover>img {
+    transform: scale(1.2);
+    box-shadow: -7px 13px 11px 0px #333;
+    border-radius: 10%;
 }
 
 .first-img-profile{
