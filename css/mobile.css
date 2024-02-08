@@ -223,10 +223,11 @@ body {
 
     .logotype{
         width: 136px;
-        text-align: left;
+        display: flex;
+        align-items: center;
     }
     .logotype > img {
-        width: 120px
+        width: 210px
     }
 
     .carousel-3d figure{
