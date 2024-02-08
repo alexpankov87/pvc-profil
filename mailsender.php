@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $source_page = isset($_POST["source_page"]) ? htmlspecialchars($_POST["source_page"]) : "Unknown Page";
 
-    // $from_email = "deadwalkingday@gmail.com"; 
+    $from_email = "info@pvc-profil.kz"; 
     $to_email = "deadwalkingday@gmail.com"; 
     $subject = 'Новая заявка с формы';
 
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </html>
     ";
 
-    // $headers = "From: $from_email\r\n";
+    $headers = "From: $from_email\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
     if (mail($to_email, $subject, $message, $headers)) {
