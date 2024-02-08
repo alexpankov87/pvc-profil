@@ -235,3 +235,11 @@ body {
     }
 }
 
+
+@media screen and (max-width: 390px) {
+.title-text-profil-pk-am>h2 {
+    font-size: 23px;
+}
+}
+
+
