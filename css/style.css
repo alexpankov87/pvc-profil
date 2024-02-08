@@ -1786,18 +1786,14 @@ footer {
     .block-figure-2,
     .block-figure-2:hover {
         filter: none;
-        border: 4px solid #BFE2FF;
+        border: 4px solid var(--dark-grey);
     }
 
     .block-figure-2 .figure-txt {
         padding: 10px;
     }
 
-    .block-figure-2:after,
-    .block-figure-2 .figure-1,
-    .block-figure-2 .figure-2 {
-        display: none;
-    }
+
 }
 
 
