@@ -372,17 +372,17 @@
     lang: "en",
     i18n: {
       en: {
-        CLOSE: "Close",
-        NEXT: "Next",
-        PREV: "Previous",
+        CLOSE: "Закрыть",
+        NEXT: "Вперёд",
+        PREV: "Назад",
         ERROR: "The requested content cannot be loaded. <br/> Please try again later.",
-        PLAY_START: "Start slideshow",
-        PLAY_STOP: "Pause slideshow",
-        FULL_SCREEN: "Full screen",
-        THUMBS: "Thumbnails",
+        PLAY_START: "Начать слайдшоу",
+        PLAY_STOP: "Пауза слайдшоу",
+        FULL_SCREEN: "Полный экран",
+        THUMBS: "Миниатюры",
         DOWNLOAD: "Download",
         SHARE: "Share",
-        ZOOM: "Zoom"
+        ZOOM: "Увеличить"
       },
       de: {
         CLOSE: "Schlie&szlig;en",
@@ -5625,7 +5625,7 @@
 
         prevTime = currTime;
 
-        instance[(-e.deltaY || -e.deltaX || e.wheelDelta || -e.detail) < 0 ? "next" : "previous"]();
+        instance[(-e.deltaY || -e.deltaX || e.wheelDelta || -e.detail) < 0 ? "следующие" : "предидущее"]();
       });
     }
   });

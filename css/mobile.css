@@ -215,5 +215,10 @@ body {
     .parsek-img {
         width: 100%;
     }
+
+    .block-figure-2{
+        margin-top: 30px;
+        max-width: none;
+    }
 }
 
