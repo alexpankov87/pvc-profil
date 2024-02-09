@@ -22,16 +22,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <title>$subject</title>
         </head>
         <body>
-        <div style='background: #ffd700; display:flex; max-width: 481px; padding-left: 160px; height:100px; border-radius: 5px;'>
+        <div style='background: #ffd700; display:flex; max-width: 100%; padding-left: 160px; height:100px; border-radius: 5px;'>
             <span style='font-weight: bold; color: #434343; font-size: 18px; margin-top: 30px;'>Завяка на обратную связь</span>
         </div>
-        <div style='max-width: 600px; background-color: #c2c2c2; padding: 20px; border-radius: 5px;'>
+        <div style='max-width: 100%; background-color: #c2c2c2; padding: 20px; border-radius: 5px;'>
             <h3 style='color: #434343; text-decoration: underline;'>Клиент:</h3>
             <p><strong>Имя:</strong> $name</p>
             <p><strong>Телефон:</strong> $phone</p>
             <p><strong>Отправлено со страницы:</strong> $source_page</p>
         </div>
-        <div style='background: #ffd700; display: flex; max-width: 481px; padding-left: 160px; height:100px; border-radius: 5px;'>
+        <div style='background: #ffd700; display: flex; max-width: 100%; padding-left: 160px; height:100px; border-radius: 5px;'>
             <span style='font-weight: bold; color: #434343; font-size: 18px; display:flex; margin-top: 30px;'>Отправлено с сайта &nbsp; pvc-profil.kz</span>
         </div>
         </body>
