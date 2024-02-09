@@ -495,7 +495,7 @@ header {
 
 .content-banner_gb-img {
     background-image: linear-gradient(rgb(0 0 0 / 64%), rgb(0 0 0 / 64%)),
-        url(img/bg-banner.jpg);
+        url(img/bg-banner.webp);
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -945,7 +945,7 @@ header {
 /*--- linear-gradient(225deg, rgb(0 0 0 / 64%), rgb(0 0 0 / 64%) 19%)---*/
 .our-advantage {
     width: 100%;
-    background: linear-gradient(225deg, rgb(0 0 0 / 64%), rgb(0 0 0 / 64%)), url(img/parallax-bg.jpg);
+    background: linear-gradient(225deg, rgb(0 0 0 / 64%), rgb(0 0 0 / 64%)), url(img/parallax-bg.webp);
     text-align: center;
     margin-top: 70px;
     margin-bottom: 30px;
