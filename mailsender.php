@@ -23,7 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </head>
         <body>
         <div style='background: #ffd700; display:flex; max-width: 100%; padding-left: 160px; height:100px; border-radius: 5px;'>
-            <img class='logotype' src='https://pvc-profil.kz/css/img/logo.png' style='width:100px; height:100px; margin-left:20px; padding:10px; ' alt='Изображение логотипа' title='Компания Ампир'>
+            <a href='https://pvc-profil.kz'>
+                <img class='logotype' src='https://pvc-profil.kz/css/img/logo.png' style='width:100px; height:90px; margin-left:20px; padding:10px; ' alt='Изображение логотипа' title='Компания Ампир'>
+            </a>
             <span style='font-weight: bold; color: #434343; font-size: 18px; margin-top: 30px;'>Завяка на обратную связь</span>
         </div>
         <div style='max-width: 100%; background-color: #c2c2c2; padding: 20px; border-radius: 5px;'>
