@@ -233,6 +233,10 @@ body {
     .carousel-3d figure{
         width: 100%;
     }
+
+    .ramka {
+        max-width: 80%;
+    }
 }
 
 
