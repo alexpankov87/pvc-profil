@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    --bg-color: #FFD700;
-    --grey-color: #5c5a5a;
-    --dark-grey: #434343;
+    --bg-color: #e69c0b;
+    --grey-color: #717075;
+    --dark-grey: #343134;
     --light-grey: #ebe5e5;
-    --backgr-grey-light: #cfc9c9;
+    --backgr-grey-light: #9c94a4;
 }
 
 /* --- Pseudo-class for the another browser input - placeholder ---*/
@@ -88,7 +88,7 @@ body {
     align-content: center;
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
-    background: #cfc9c9;
+    background: var(--grey-color);
     cursor: default;
 }
 
@@ -592,7 +592,7 @@ header {
 
 .title-products > h2 {
     font-size: 35px;
-    color: var(--grey-color);
+    color: var(--dark-grey);
     cursor: default;
 }
 
@@ -657,7 +657,7 @@ header {
 }
 
 .slider-title-desc > h2 {
-    color: var(--grey-color);
+    color: var(--dark-grey);
 }
 .slider-text {
     margin-bottom: 30px;
@@ -667,7 +667,7 @@ header {
 }
 
 .slider-text > span {
-    color: var(--grey-color);
+    color: var(--dark-grey);
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -1323,7 +1323,7 @@ footer {
 }
 
 .our-phones > a > span {
-    color: var(--backgr-grey-light);
+    color: var(--light-grey);
 }
 
 .our-phones>a:hover>span {
@@ -1337,7 +1337,7 @@ footer {
 }
 
 .our-address > span {
-    color: var(--backgr-grey-light);
+    color: var(--light-grey);
     font-size: 18px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1355,7 +1355,7 @@ footer {
 }
 
 .our-schedule>span {
-    color: var(--backgr-grey-light);
+    color: var(--light-grey);
     font-size: 18px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1369,7 +1369,7 @@ footer {
 
 .copy-right {
     padding-top: 10px;
-    border-top: 1px solid var(--backgr-grey-light);
+    border-top: 1px solid var(--light-grey);
     margin-top: 30px;
     text-align: center;
     padding-bottom: 30px;
@@ -1377,7 +1377,7 @@ footer {
 
 .copy-right > span {
 
-    color: var(--backgr-grey-light);
+    color: var(--light-grey);
     text-transform: uppercase;
 }
 .yamap_wrap {
@@ -1458,7 +1458,7 @@ footer {
     transition: all .7s ease-in-out;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: var(--grey-color);
+    background-color: var(--dark-grey);
     background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5MS44NTggNDkxLjg1OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDkxLjg1OCA0OTEuODU4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ5MS44NTgsNDQyLjQ2MWMwLDEzLjkzMS0xMS4yOTMsMjUuMjI0LTI1LjIyNCwyNS4yMjRMMjQ1LjkzLDM3My4wOTdMMjUuMjI0LDQ2Ny42ODYgICAgQzExLjI5Miw0NjcuNjg2LDAsNDU2LjM5MiwwLDQ0Mi40NjFMMjI3LjAxMSwzMi41OGMwLDAsMTguOTE4LTE4LjkxOCwzNy44MzQsMEMyODMuNzY0LDUxLjQ5OSw0OTEuODU4LDQ0Mi40NjEsNDkxLjg1OCw0NDIuNDYxeiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=)
 }
 
