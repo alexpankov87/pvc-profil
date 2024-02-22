@@ -1550,6 +1550,15 @@ footer {
     justify-content: center;
 }
 
+.flexy-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 .parsek-img {
     display: flex;
     flex-direction: column;
@@ -1605,6 +1614,7 @@ footer {
 
 .second-img-profile {
     text-align: center;
+    text-decoration: none;
 }
 
 .first-img-profile > img {
@@ -1617,6 +1627,7 @@ footer {
     object-fit: fill;
     width: 100%;
     transition: 0.5s;
+    padding: 5px;
 }
 
 .second-img-profile:hover>img {
@@ -1969,4 +1980,43 @@ footer {
     width: 100%;
 }
 
+.content-profl-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.content-profl-top .wrap > a > span {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-profl-top >a>span {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wrap-title > h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: var(--dark-grey);
+    font-size: 32px;
+    text-transform: uppercase;
+}
 
