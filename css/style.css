@@ -623,7 +623,7 @@ header {
 
 .text-about-factory > span {
     font-size: 25px;
-    color: var(--dark-grey);
+    color: var(--light-grey);
     text-transform: uppercase;
 }
 
@@ -667,7 +667,7 @@ header {
 }
 
 .slider-text > span {
-    color: var(--dark-grey);
+    color: var(--light-grey);
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px;
