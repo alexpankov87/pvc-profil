@@ -1617,6 +1617,11 @@ footer {
 .second-img-profile {
     text-align: center;
     text-decoration: none;
+    background: var(--grey-color);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 3px 1px #b0adb3;
 }
 
 .first-img-profile > img {
@@ -1630,6 +1635,8 @@ footer {
     width: 100%;
     transition: 0.5s;
     padding: 10px;
+    border-bottom: 5px solid var(--bg-color);
+    border-radius: 5px
 }
 
 .second-img-profile:hover>img {
@@ -1996,6 +2003,7 @@ footer {
 .content-profl-top .wrap > a > span {
     display: flex;
     flex-direction: column;
+    color: var(--light-grey);
 }
 
 .content-profl-top >a>span {
