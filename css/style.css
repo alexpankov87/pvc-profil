@@ -620,6 +620,8 @@ header {
 
 .text-about-factory{
     width: 625px;
+    text-align: right;
+    padding-right: 20px;
 }
 
 .text-about-factory > span {
