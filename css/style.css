@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    --bg-color: #e69c0b;
+    --bg-color: #ec6e18;
     --grey-color: #717075;
     --dark-grey: #343134;
     --light-grey: #ebe5e5;
@@ -1287,6 +1287,7 @@ footer {
     cursor: pointer;
     width: 206px;
     height: 155px;
+    margin-right: 30px;
 }
 .footer-contacts {
     display: flex;
