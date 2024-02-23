@@ -237,6 +237,38 @@ body {
     .ramka {
         max-width: 80%;
     }
+
+    .akchiya {
+        flex-direction: column;
+        padding: 10px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .img-akchiya {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .img-akchiya>img {
+        width: 100%;
+    }
+
+    .akchiya .information-akchiya>p {
+        font-size: 20px;
+    }
+
+   .akchiya .information-akchiya>p>span {
+    font-size: 20px;
+   }
+   .akchiya .information-akchiya .first {
+    font-size: 20px;
+   }
+
+   .akchiya .information-akchiya .first > span {
+    font-size: 20px;
+   }
 }
 
 
