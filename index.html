@@ -557,6 +557,68 @@
                         </a>
                     
                     </div>
+                    <div class="wrap-title show">
+                        <h2>ДРУГИЕ</h2>
+                    </div>
+                    <div class="wrap show">
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/muravej_01_2.webp">
+                            <img src="images/flexy/muravej_01_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>MURAVEJ 01</span>
+                            <span>В упакове 10м</span>
+                            <span>Длина профиля 2м</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/bandaz_01_2.webp">
+                            <img src="images/flexy/bandaz_01_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>BANDAZ 01</span>
+                            <span>&nbsp;</span>
+                            <span>Длина профиля 2м</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/bandaz_02_2.webp">
+                            <img src="images/flexy/bandaz_02_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>BANDAZ 02</span>
+                            <span>&nbsp;</span>
+                            <span>Длина профиля 2м</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/finish_01_2.webp">
+                            <img src="images/flexy/finish_01_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>FINISH 01</span>
+                            <span>&nbsp;</span>
+                            <span>Длина профиля 2м</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/razdelitel_1.webp">
+                            <img src="images/flexy/razdelitel_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>РАЗДЕЛИТЕЛЬНЫЙ</span>
+                            <span>В упаковке 50м</span>
+                            <span>Длина профиля 2м; 2,5м;</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/potolochii_1.webp">
+                            <img src="images/flexy/potolochii_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>ПОТОЛОЧНЫЙ</span>
+                            <span>В упаковке 50м</span>
+                            <span>Длина профиля 2,5м</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/otboinik_1.webp">
+                            <img src="images/flexy/otboinik_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>ОТБОЙНИК</span>
+                            <span>В упаковке 50м</span>
+                            <span>Длина профиля 2м; 2,5м;</span>
+                        </a>
+                        <a class="second-img-profile" data-fancybox="my-images-3" data-caption="Линейка профиля Flexy" data-fancybox
+                            href="images/flexy/box_alumin_2.webp">
+                            <img src="images/flexy/box_alumin_1.webp" alt="изображение профиля" title="Линейка профиля" />
+                            <span>БОКС алюминиевый</span>
+                            <span>В упаковке 8м</span>
+                            <span>Длина профиля 2м;</span>
+                        </a>
+                    
+                    </div>
                     <div class="btn-to-hidden" title="Больше информации по линейки профиля">
                         <button class="toggleButton" id="topCategory" onclick="toggleTop()">Подробнее</button>
                     </div>
@@ -898,6 +960,13 @@
                                 <label for="feedback-phone">Телефон:</label>
                                 <input required type="text" id="feedback-phone" name="feedback-phone" placeholder="Введите ваш номер">
                             </div>
+                            <!-- <div class="captcha-input">
+                                <div id="captcha"></div>
+                                <input type="text" id="userInput" placeholder="Введите символы из капчи">
+                                <input type="hidden" id="captchaValue">
+                                <button type="button" onclick="checkCaptcha()">Проверить капчу</button>
+                                <button type="button" onclick="generateCaptcha()">Обновить капчу</button>
+                            </div> -->
                             <label for="feedback-checkbox" class="form-feedback-container-checkbox">
                                 <input type="checkbox" checked="checked" name="feedback-checkbox" id="feedback-checkbox">
                                 <span class="checkmark"></span>
@@ -905,7 +974,7 @@
                             </label>
                             <div class="form-feedback-btn">
                                 <input type="hidden" name="source_page" value="Форма обратной связи">
-                                <button type="button" onclick="submitForm()">
+                                <button type="button" id="submitBtn" onclick="submitForm()">
                                     Отправить
                                 </button>
                             </div>
@@ -1062,6 +1131,62 @@
     <script src="js/slider-simple.js"></script>
 
 
+    <!-- <script>
+        function checkFormValidity() {
+                let nameInput = document.getElementById('feedback-name').value;
+                let phoneInput = document.getElementById('feedback-phone').value;
+                let captchaInput = document.getElementById('userInput').value;
+                let captchaValue = document.getElementById('captchaValue').value;
+
+                let isNameValid = nameInput.trim() !== '';
+                let isPhoneValid = phoneInput.trim() !== '';
+                let isCaptchaValid = captchaInput.toLowerCase() === captchaValue.toLowerCase();
+
+                return isNameValid && isPhoneValid && isCaptchaValid;
+            }
+
+            function enableSubmitButton() {
+                let isValid = checkFormValidity();
+                document.getElementById('submitBtn').disabled = !isValid;
+            }
+
+            function enableCheckCaptchaButton() {
+                let captchaInput = document.getElementById('userInput').value;
+                let captchaValue = document.getElementById('captchaValue').value;
+                document.getElementById('checkCaptchaBtn').disabled = captchaInput.toLowerCase() !== captchaValue.toLowerCase();
+            }
+
+            function generateCaptcha() {
+                let captchaString = generateRandomString(6);
+                document.getElementById('captcha').innerHTML = 'Пожалуйста, введите символы: ' + captchaString;
+                document.getElementById('captchaValue').value = captchaString;
+                enableSubmitButton(); // Проверяем валидность формы после обновления капчи
+            }
+
+            function checkCaptcha() {
+                let isValid = checkFormValidity();
+                if (isValid) {
+                    alert('Капча пройдена успешно!');
+                } else {
+                    alert('Пожалуйста, введите правильные символы из капчи, а также заполните все поля формы.');
+                }
+            }
+
+            function generateRandomString(length) {
+                let result = '';
+                let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+                let charactersLength = characters.length;
+                for (let i = 0; i < length; i++) {
+                    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+                }
+                return result;
+            }
+
+            // Добавляем обработчик события input к полю ввода капчи
+            document.getElementById('userInput').addEventListener('input', enableCheckCaptchaButton);
+
+    </script> -->
+
     <script>
         $(document).ready(function () {
             $('#feedback-phone').inputmask( {
@@ -1170,7 +1295,7 @@
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
             m[i].l = 1 * new Date();
-            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            for (let j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
             k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
         })
             (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
