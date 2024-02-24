@@ -291,6 +291,12 @@ body {
    #navbar {
         justify-content: space-around;
    }
+   .img-akchiya>P {
+       font-size: 25px;
+       color: #524e52;
+       font-weight: 400;
+       padding-right: 21px;
+   }
 }
 
 
