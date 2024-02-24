@@ -316,4 +316,101 @@ body {
 }
 }
 
+@media screen and (max-width: 375px) {
+.title-text-profil-pk-am>h2 {
+        font-size: 21px;
+    }
 
+    .title-text-profil-m-series > h2 {
+        font-size: 22px;
+    }
+
+    .our-advantage>.our-title>h2 {
+        font-size: 21px;
+    }
+
+    .first-link>p {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .first-link>img {
+        width: 50px;
+        padding-left: 10px;
+    }
+
+    .second-link>p {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .second-link>img {
+        width: 50px;
+        padding-left: 10px;
+    }
+
+    .third-link>p {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .third-link>img {
+        width: 50px;
+        padding-left: 10px;
+    }
+
+   .four-link>p {
+       font-size: 14px;
+       padding-right: 20px;
+   }
+
+   .four-link>img {
+       width: 50px;
+       padding-left: 10px;
+   }
+
+   .five-link>p {
+       font-size: 14px;
+       padding-right: 20px;
+   }
+
+   .five-link>img {
+       width: 50px;
+       padding-left: 10px;
+   }
+
+   .slider-title-desc>h2 {
+    font-size: 22px;
+   }
+
+   .slr {
+    width: 94%;
+   }
+
+   #sls .sl .sl-partial img {
+    height: 355px;
+    object-fit: scale-down;
+   }
+
+   .slr {
+       height: 372px;
+       margin-right: 0px;
+   }
+
+   .form-feedsback_bg {
+       width: 325px;
+        height: 455px;
+   }
+
+   .name-input>input {
+       width: 238px;
+   }
+
+   .phone-input>input {
+        width: 238px;
+   }
+
+   .logotype>img {
+       width: 100px;
+   }
+}
