@@ -308,6 +308,12 @@ body {
 .title-text-profil>h2 {
     font-size: 28px;
 }
+.logotype {
+    width: 140px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
 }
 
 
