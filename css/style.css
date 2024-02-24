@@ -120,7 +120,7 @@ header {
 }
 
 .days-work > h4 {
-    color: #333333bd;
+    color: var(--dark-grey);
 }
 
 .social-icons  {
