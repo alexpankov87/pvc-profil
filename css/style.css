@@ -1873,6 +1873,7 @@ footer {
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+    border-radius: 20px;
 }
 
 .carousel-3d figure img {
