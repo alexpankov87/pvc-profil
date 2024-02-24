@@ -318,6 +318,14 @@ body {
     width: 100%;
 }
 
+.name-input>input {
+    width: 348px;
+}
+
+.phone-input>input {
+    width: 348px;
+}
+
 }
 
 @media screen and (max-width: 375px) {
