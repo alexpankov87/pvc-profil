@@ -188,7 +188,7 @@ body {
     }
 
     .form-feedsback_bg { 
-        width: 475px;
+        width: 425px;
     }
 
     .name-input>input {
@@ -297,6 +297,10 @@ body {
 @media screen and (max-width: 390px) {
 .title-text-profil-pk-am>h2 {
     font-size: 23px;
+}
+
+.title-text-profil>h2 {
+    font-size: 28px;
 }
 }
 
