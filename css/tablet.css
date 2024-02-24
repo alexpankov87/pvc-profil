@@ -1,0 +1,82 @@
+@media screen and (max-width: 1024px) {
+    .title-text>h1 {
+        font-size: 30px;
+    }
+
+    .slider {
+        width: 90%;
+    }
+
+    .slider-text>span {
+        font-size: 20px;
+    }
+
+    .logotype > img {
+        width: 136px;
+        margin-left: 30px;
+    }
+
+    .akchiya .information-akchiya .first {
+        font-size: 22px;
+    }
+}
+
+ @media screen and (max-width: 768px) { 
+    .top-contacts {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #cfc9c9
+    }
+
+    .days-work {
+        margin-left: 90px;
+    }
+
+    /* .img-logo-top-menu {
+        margin-left: 150px;
+    } */
+
+    .title-text {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+        padding-left: 50px;
+        flex-direction: column;
+    }
+
+    .logotype {
+        display: none;
+    }
+
+    .title-text>h1 {
+        margin-left: 140px;
+    }
+
+    .akchiya {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 40px;
+        background: var(--light-grey);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 3px #504d50;
+        width: 90%;
+        margin-left: 110px;
+    }
+
+    .information-akchiya {
+        border-left: 10px dashed var(--bg-color);
+        padding-left: 10px;
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+
+    #navbar {
+        justify-content: center;
+    }
+
+ }

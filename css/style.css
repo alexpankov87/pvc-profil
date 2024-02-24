@@ -2057,6 +2057,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    flex-direction: column;
     /* flex-direction: row-reverse; */
     margin-bottom: 50px;
     margin-top: 40px;
@@ -2064,6 +2065,7 @@ footer {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 3px #504d50;
+    width: 60%;
 }
 .akchiya .information-akchiya>p {
     font-size: 25px;
@@ -2099,15 +2101,28 @@ footer {
     font-weight: 400;
 }
 
-.img-akchiya {
-    margin-right: 30px;
-    border-radius: 10px;
-}
+
 
 .img-akchiya > img {
     border-radius: 10px;
     object-fit: fill;
     
+}
+
+.img-akchiya > P {
+    font-size: 30px;
+    color: #524e52;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.img-akchiya > p > span {
+    color: var(--bg-color);
+    text-shadow: 1px 1px 1px var(--dark-grey);
+}
+
+.img-akchiya {
+    display: flex;
 }
 
 .information-akchiya {
