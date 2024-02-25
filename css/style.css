@@ -1917,7 +1917,7 @@ footer {
     width: 100%;
     z-index: 1;
     padding: 40px 40px;
-    max-width: 50%;
+    max-width: 80%;
     /* display: flex; */
     /* flex-direction: row; */
     flex-wrap: wrap;
@@ -2169,4 +2169,11 @@ footer {
 
 .logotype > img {
     width: 130px;
+}
+
+.wrap-title {
+    background: #717075;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
