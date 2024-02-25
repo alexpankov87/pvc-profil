@@ -2297,3 +2297,14 @@ footer {
     transform: scale(1.1);
 }
 
+.our-profile-title > h2 {
+    font-size: 40px;
+    color: var(--dark-grey);
+    text-decoration: underline;
+}
+
+.our-profile-title {
+    width: 100%;
+    border-bottom: 4px solid var(--backgr-grey-light);
+    text-align: center;
+}
