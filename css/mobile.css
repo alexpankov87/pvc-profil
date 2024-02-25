@@ -110,7 +110,8 @@ body {
         height: 350px;
     }
     .text-about-factory {
-        width: 350px;
+        width: 360px;
+        padding-left: 10px;
     }
 
     .text-about-factory > span {
@@ -167,6 +168,7 @@ body {
     .slider {
         width: 100%;
         flex-direction: column;
+        margin-left: 0px;
     }
     
     .slr{
@@ -192,11 +194,11 @@ body {
     }
 
     .name-input>input {
-        width: 388px;
+        width: 358px;
     }
 
     .phone-input>input{
-        width: 388px;
+        width: 358px;
     }
 
     .footer-contacts {
@@ -222,7 +224,8 @@ body {
     }
 
     .logotype{
-        width: 200px;
+        width: 110px;
+        height: 90px;
         display: flex;
         align-items: center;
     }
@@ -296,6 +299,14 @@ body {
        color: #524e52;
        font-weight: 400;
        padding-right: 21px;
+   }
+
+   .title-text-profil>h2 {
+    font-size: 29px;
+   }
+
+   .title-text-profil-pk-am>h2 {
+    font-size: 23px;
    }
 }
 

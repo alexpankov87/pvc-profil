@@ -2155,3 +2155,9 @@ footer {
     cursor: pointer;
 }
 
+.bg-instagram {
+    width: 100%;
+    background: #333333;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
