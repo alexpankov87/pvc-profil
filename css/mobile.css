@@ -496,3 +496,81 @@ body {
        width: 100%;
    }
 }
+
+@media screen and (max-width: 320px) {
+    .title-contacts-text-phone>a>span {
+        font-size: 34px;
+    }
+
+    .title-products>h2 {
+        font-size: 27px;
+    }
+
+    .img-akchiya>img {
+        width: 159px;
+    }
+
+    .video-instagram>video {
+        width: 290px;
+        height: 290px;
+    }
+
+    .text-about-factory {
+        width: 290px;
+    }
+
+    .text-about-factory>span {
+        font-size: 18px;
+    }
+
+    .title-text-profil>h2 {
+        font-size: 23px;
+    }
+
+    .title-text-profil-pk-am>h2 {
+        font-size: 18px;
+    }
+
+    .title-text-profil-m-series>h2 {
+        font-size: 19px;
+    }
+
+    .our-content {
+        width: 305px;
+    }
+
+    .slider-title-desc>h2 {
+        font-size: 17px;
+    }
+
+    .form-feedsback_bg {
+        width: 305px;
+        height: 455px;
+    }
+
+    .carousel-3d {
+        padding: 10px;
+    }
+
+    .our-address>span {
+        font-size: 16px;
+    }
+
+    .our-schedule>span {
+        font-size: 16px;
+    }
+
+    .our-phones>a>span {
+        font-size: 22px;
+    }
+
+    .upbtn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+    }
+}
