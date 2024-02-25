@@ -19,6 +19,10 @@
     .akchiya .information-akchiya .first {
         font-size: 22px;
     }
+
+    .footer-contacts {
+        justify-content: space-evenly;
+    }
 }
 
  @media screen and (max-width: 768px) { 
