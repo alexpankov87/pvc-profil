@@ -308,7 +308,15 @@ body {
    .title-text-profil-pk-am>h2 {
     font-size: 23px;
    }
+
+   .img-baget > img {
+     width: 98%;
+     object-fit: fill;
+   }
 }
+
+
+
 
 
 @media screen and (max-width: 390px) {
