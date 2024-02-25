@@ -313,6 +313,23 @@ body {
      width: 98%;
      object-fit: fill;
    }
+
+   .main-profile {
+    flex-direction: column;
+    margin-left: 0px;
+   }
+
+   .profile-flexy-block {
+    margin: 20px;
+   }
+
+   .first-block>img {
+    width: 80%;
+   }
+
+   .second-block>img {
+    width: 80%;
+   }
 }
 
 
@@ -390,6 +407,10 @@ body {
 .slr {
     height: 392px;
     margin-right: 0px;
+}
+
+.profile-flexy-block {
+    padding: 60px;
 }
 }
 

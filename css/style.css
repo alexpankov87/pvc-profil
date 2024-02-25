@@ -2051,6 +2051,7 @@ footer {
     color: var(--dark-grey);
     font-size: 32px;
     text-transform: uppercase;
+    
 }
 
 .akchiya {
@@ -2176,4 +2177,123 @@ footer {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    justify-content: center;
 }
+
+.grid {
+    /* background: #fff; */
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 30px
+}
+
+.grid .col-1 {
+    /* background-color: #337AB7; */
+    display: grid;
+    /* place-items: center; */
+    justify-items: start;
+    color: #fff;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 28px;
+}
+
+.col-1>img {
+    width: 100%;
+}
+
+.col-2 > img {
+    width: 60%;
+}
+.col-3 > img {
+    width: 60%;
+}
+
+.grid.template-3 {
+    grid-template: "sidebar a" "sidebar b";
+}
+
+.grid.template-3> :nth-child(1) {
+    grid-area: sidebar;
+}
+
+/*----- section ---*/
+
+.main-profile {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    
+}
+
+.main-profile > a {
+    transition: 0.4s;
+}
+
+.main-profile > a:hover {
+    transform: scale(1.1);
+}
+
+.profile-flexy-block {
+    background: var(--dark-grey);
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #4a4848;
+}
+
+
+
+.first-block {
+    background: var(--dark-grey);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #4a4848;
+}
+
+.second-block {
+    background: var(--dark-grey);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #4a4848;
+}
+.profile-flexy-block>img {
+    object-fit: fill;
+    border-bottom: 10px solid var(--bg-color);
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.first-block > img  {
+    object-fit: fill;
+    width: 50%;
+    border-bottom: 10px solid var(--bg-color);
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.second-block > img {
+    object-fit: fill;
+    width: 50%;
+    border-bottom: 10px solid var(--bg-color);
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.other-profile-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.other-profile-block > a {
+    transition: 0.4s;
+}
+
+.other-profile-block>a:hover {
+    transform: scale(1.1);
+}
+
