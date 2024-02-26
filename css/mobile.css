@@ -591,6 +591,35 @@ body {
    }
 }
 
+@media screen and (min-width: 390px) and (max-width: 405px) {
+    .btn-order-call {
+        padding: 20px 20px 20px 20px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 364px) {
+    .btn-order-call {
+        padding: 20px 20px 20px 20px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 344px) {
+    .btn-order-call {
+        font-size: 17px;
+        
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 337px) {
+    .btn-order-call {
+        font-size: 16px;
+
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .title-contacts-text-phone>a>span {
         font-size: 34px;
@@ -689,9 +718,3 @@ body {
     }
 }
 
-@media screen and (min-width: 390px) and (max-width: 405px) {
-.btn-order-call {
-        padding: 20px 20px 20px 20px;
-        
-    }
-}
