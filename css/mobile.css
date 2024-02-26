@@ -330,6 +330,24 @@ body {
    .second-block>img {
     width: 80%;
    }
+
+   .yamap_wrap {
+    width: 95%;
+    margin-left: 0px;
+    height: 325px;
+   }
+
+   .our-phones {
+    padding-left: 10px;
+    margin-top: 10px;
+   }
+
+   .our-address {
+    padding-left: 10px;
+   }
+   .our-schedule {
+    padding-left: 10px;
+   }
 }
 
 
@@ -411,6 +429,12 @@ body {
 
 .profile-flexy-block {
     padding: 60px;
+}
+
+
+.our-address>span {
+    font-size: 20px;
+    padding-right: 15px;
 }
 }
 
@@ -612,5 +636,17 @@ body {
     .whatsapp-button {
         width: 50px;
         height: 50px;
+    }
+
+    .our-phones>.our-phones-title {
+        font-size: 24px;
+    }
+    
+    .our-address .title {
+        font-size: 24px;
+    }
+
+    .our-schedule .title {
+        font-size: 24px;
     }
 }

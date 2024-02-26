@@ -26,6 +26,25 @@
     .profile-flexy-block>img {
         width: 100%;
     }
+
+    .title-footer {
+        flex-direction: column;
+    }
+
+    .our-address {
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    .our-phones {
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .yamap_wrap {
+        margin-left: 20px;
+        height: 555px;
+    }
 }
 
  @media screen and (max-width: 768px) { 
@@ -119,4 +138,27 @@
     .main-profile {
         margin-left: 120px;
     }
+
+    .map {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .yamap_wrap {
+        width: 75%;
+    }
+
+    .contacts-footer {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .main-content {
+        align-items: flex-end;
+    }
+
+    .slider-text {
+        margin-left: 20px;
+    }
+   
  }
