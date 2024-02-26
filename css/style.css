@@ -1987,7 +1987,7 @@ footer {
     /* flex-direction: row-reverse; */
     margin-bottom: 50px;
     margin-top: 40px;
-    background: var(--light-grey);
+    background: linear-gradient(145deg, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 3px #504d50;
