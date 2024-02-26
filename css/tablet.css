@@ -1,3 +1,16 @@
+@media screen and (max-width: 1440px) {
+.title-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+.our-schedule {
+    padding-left: 0px;
+}
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .title-text>h1 {
         font-size: 30px;
@@ -44,6 +57,10 @@
     .yamap_wrap {
         margin-left: 20px;
         height: 555px;
+    }
+
+    .our-schedule {
+        padding-left: 30px;
     }
 }
 
@@ -160,5 +177,11 @@
     .slider-text {
         margin-left: 20px;
     }
-   
+
+    .block-display {
+        display: flex;
+    }
+   .our-phones {
+    margin-top: 10px;
+   }
  }

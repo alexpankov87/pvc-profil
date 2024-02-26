@@ -2245,9 +2245,9 @@ footer {
     background: var(--dark-grey);
 }
 .yamap_wrap {
-    height: 425px;
+    height: 555px;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 550px;
 }
 
@@ -2258,19 +2258,20 @@ footer {
 
 .title-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .our-address {
     display: flex;
     flex-direction: column;
     padding-right: 30px;
+    margin-top: 40px;
 }
 
 .our-schedule {
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
+    padding-left: 0px;
 
 }
 
