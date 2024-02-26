@@ -335,6 +335,7 @@ body {
     width: 95%;
     margin-left: 0px;
     height: 325px;
+    margin-right: 0px;
    }
 
    .our-phones {
@@ -355,6 +356,13 @@ body {
    }
    .main-content {
        align-items: center;
+   }
+
+   .contacts-footer>h2 {
+       padding-left: 20px;
+       margin-top: 0px;
+       margin-bottom: 10px;
+       font-size: 24px;
    }
 }
 

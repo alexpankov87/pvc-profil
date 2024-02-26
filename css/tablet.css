@@ -57,9 +57,14 @@
     .yamap_wrap {
         margin-left: 20px;
         height: 555px;
+        margin-right: 20px;
+        width: 700px;
     }
 
     .our-schedule {
+        padding-left: 30px;
+    }
+    .contacts-footer>h2 {
         padding-left: 30px;
     }
 }
