@@ -1102,7 +1102,7 @@ header {
 .form-feedsback_bg {
     width: 525px;
     height: 435px;
-    background: var(--backgr-grey-light);
+    background: #717075;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -1213,7 +1213,7 @@ header {
     outline: none;
     width: 408px;
     margin-left: 46px;
-    background-color: var(--backgr-grey-light);
+    background-color:#717075;
     font-size: 18px;
     color: var(--dark-grey);
 }
@@ -1247,7 +1247,7 @@ header {
     outline: none;
     width: 408px;
     margin-left: 46px;
-    background-color: var(--backgr-grey-light);
+    background-color:#717075;
     font-size: 18px;
     color: var(--dark-grey);
 }
