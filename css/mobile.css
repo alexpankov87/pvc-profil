@@ -364,6 +364,14 @@ body {
        margin-bottom: 10px;
        font-size: 24px;
    }
+   .btn-promotion {
+       margin-top: 30px;
+       display: flex;
+   }
+
+   .btn-called {
+    padding: 20px 20px 20px 20px;
+   }
 }
 
 
@@ -673,5 +681,10 @@ body {
     }
     .main-content {
         align-items: center;
+    }
+
+    .btn-order-call {
+        padding: 20px 23px 20px 20px; 
+        font-size: 14px;
     }
 }

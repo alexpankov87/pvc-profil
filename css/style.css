@@ -2398,3 +2398,51 @@ footer {
     text-transform: uppercase;
 }
 
+.btn-promotion  a {
+    text-decoration: none;
+}
+
+.btn-promotion {
+    margin-top: 30px;
+}
+
+
+.btn-called {
+    padding: 20px 50px 20px 50px;
+    margin-right: 20px;
+    border: none;
+    background: var(--bg-color);
+    color: var(--light-grey);
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 1px var(--grey-color);
+    text-transform: uppercase;
+}
+
+.btn-promotion a:hover .btn-called {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: var(--dark-grey);
+}
+
+
+.btn-order-call {
+    padding: 20px 30px 20px 30px;
+    margin-left: 10px;
+    border: 1px solid var(--dark-grey);
+    background: #ffffff00;
+    color: var(--dark-grey);
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 1px var(--grey-color);
+    text-transform: uppercase;
+}
+
+.btn-promotion a:hover .btn-order-call {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: var(--light-grey);
+    background: var(--bg-color);
+}
