@@ -67,6 +67,20 @@
 *:focus::placeholder {
     opacity: 0;
 }
+/* Scroll Browsers */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f159;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-color);
+    border-radius: 4px;
+}
+
 
 /* Modern Browsers */
 /* --- Pseudo-class for the another browser input - placeholder ---*/
@@ -1991,7 +2005,7 @@ footer {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 3px #504d50;
-    width: 60%;
+    width: 100%;
 }
 .akchiya .information-akchiya>p {
     font-size: 25px;
@@ -2049,6 +2063,7 @@ footer {
 
 .img-akchiya {
     display: flex;
+    width: 60%;
 }
 
 .information-akchiya {

@@ -7,6 +7,10 @@
 .our-schedule {
     padding-left: 0px;
 }
+
+.img-akchiya {
+    width: 80%;
+}
 }
 
 
@@ -67,6 +71,10 @@
     .contacts-footer>h2 {
         padding-left: 30px;
     }
+
+    .img-akchiya {
+        width: 100%;
+    }
 }
 
  @media screen and (max-width: 768px) { 
@@ -108,7 +116,7 @@
         flex-direction: column;
         margin-bottom: 50px;
         margin-top: 40px;
-        background: var(--light-grey);
+        background: linear-gradient(145deg, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
         padding: 40px;
         border-radius: 10px;
         box-shadow: 1px 1px 3px 3px #504d50;
@@ -176,7 +184,7 @@
     }
 
     .main-content {
-        align-items: flex-end;
+        align-items: center;
     }
 
     .slider-text {
@@ -188,5 +196,12 @@
     }
    .our-phones {
     margin-top: 10px;
+   }
+
+   .ramka {
+    max-width: 100%;
+   }
+   #navbar {
+       justify-content: end;
    }
  }
