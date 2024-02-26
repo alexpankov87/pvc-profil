@@ -2247,7 +2247,9 @@ footer {
 
 .first-block {
     background: var(--dark-grey);
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
     padding: 30px;
     border-radius: 30px;
     box-shadow: 2px 2px 5px 2px #4a4848;
@@ -2255,7 +2257,10 @@ footer {
 
 .second-block {
     background: var(--dark-grey);
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     padding: 30px;
     border-radius: 30px;
     box-shadow: 2px 2px 5px 2px #4a4848;
