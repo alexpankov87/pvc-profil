@@ -688,3 +688,10 @@ body {
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 390px) and (max-width: 405px) {
+.btn-order-call {
+        padding: 20px 20px 20px 20px;
+        
+    }
+}
