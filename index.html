@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tablet.css">
@@ -64,7 +65,7 @@
                 <article class="content-banner">
                     <div class="content-banner_gb-img">
                         <div class="context-banner-text">
-                            <div class="title-text">
+                            <div class="title-text wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <img class="logotype" src="css/img/logo.png" alt="Изображение логотипа" title="Компания Ампир">
                                 <h1>
                                     Многопрофильная производственная компания
@@ -75,7 +76,7 @@
                                     
                                 </h1>
                             </div>
-                            <div class="title-contacts">
+                            <div class="title-contacts wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <span class="title-contacts-text">
                                     Нужен качественный профиль по хорошей цене?
                                 </span>
@@ -115,7 +116,7 @@
                     <img src="images/factory-svgrepo-com.svg" title="Наше производство" alt="Изображение фабрики">
                     <h2 >Наше производство</h2 >
                 </article>
-                <article class="akchiya">
+                <article class="akchiya wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="akchiya-title">
                         <img src="images/stars.svg" alt="" srcset="">
                         <h2>АКЦИЯ</h2>
@@ -176,18 +177,18 @@
                 <!-- Card section-->
                 <article class="main-profile">
                     <a href="profile_flexy.html">
-                        <div class="profile-flexy-block">
+                        <div class="profile-flexy-block wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
                             <img src="images/flexy_bg.png" alt="изображение категории профиля" title="Профиль Flexy">
                         </div>
                     </a>
                     <div class="other-profile-block">
                         <a href="profile_alteza.html"> 
-                            <div class="first-block">
+                            <div class="first-block wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                             <img src="images/alteza_alform.png" alt="изображение категории профиля" title="Профиль Алформ Alteza">
                             </div>
                         </a>
                         <a href="profile_parsek.html">
-                            <div class="second-block">
+                            <div class="second-block wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <img src="images/alform_parsek.png" alt="изображение категории профиля" title="Профиль Алформ Парсек">
                             </div>
                         </a>
@@ -479,6 +480,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/formsender.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/whatsappscroll.js"></script>
@@ -543,6 +545,17 @@
             document.getElementById('userInput').addEventListener('input', enableCheckCaptchaButton);
 
     </script> -->
+
+    <script>
+      wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        })
+        wow.init();
+    </script>
 
     <script>
         $(document).ready(function () {
