@@ -858,6 +858,13 @@
                             <input required type="text" id="feedback-phone" name="feedback-phone"
                                 placeholder="Введите ваш номер">
                         </div>
+                        <div class="captcha-input">
+                            <div id="captcha"></div>
+                            <input class="captcha-input-place" type="text" id="userInput" placeholder="Введите символы из капчи">
+                            <input type="hidden" id="captchaValue">
+                            <button class="check-capthca" type="button" onclick="checkCaptcha()">Проверить капчу</button>
+                            <button class="generate-captcha" type="button" onclick="generateCaptcha()">Обновить капчу</button>
+                        </div>
                         <label for="feedback-checkbox" class="form-feedback-container-checkbox">
                             <input type="checkbox" checked="checked" name="feedback-checkbox" id="feedback-checkbox">
                             <span class="checkmark"></span>
@@ -1005,7 +1012,7 @@
     <script src="js/slider-simple.js"></script>
 
 
-    <!-- <script>
+    <script>
         function checkFormValidity() {
                 let nameInput = document.getElementById('feedback-name').value;
                 let phoneInput = document.getElementById('feedback-phone').value;
@@ -1059,7 +1066,7 @@
             // Добавляем обработчик события input к полю ввода капчи
             document.getElementById('userInput').addEventListener('input', enableCheckCaptchaButton);
 
-    </script> -->
+    </script>
 
     <script>
         $(document).ready(function () {
