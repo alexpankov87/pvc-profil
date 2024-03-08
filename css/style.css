@@ -1115,7 +1115,7 @@ header {
 
 .form-feedsback_bg {
     width: 525px;
-    height: 435px;
+    height: 515px;
     background: #717075;
     display: flex;
     flex-direction: column;
@@ -2445,4 +2445,58 @@ footer {
     cursor: pointer;
     color: var(--light-grey);
     background: var(--bg-color);
+}
+
+
+.captcha-input .captcha-input-place {
+    border: none;
+    border-bottom: 3px solid var(--bg-color);
+    padding-top: 5px;
+    padding-bottom: 8px;
+    outline: none;
+    width: 408px;
+    margin-left: 46px;
+    background-color: #717075;
+    font-size: 18px;
+    color: var(--dark-grey);
+    margin-bottom: 10px;
+}
+
+.captcha-input-place::placeholder {
+    color: var(--dark-grey);
+    font-size: 18px;
+}
+
+.captcha-input .check-capthca {
+    margin-left: 46px;
+    background-color: var(--bg-color);
+    color: var(--dark-grey);
+    border:none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.captcha-input .check-capthca:hover {
+    color: var(--light-grey);
+    cursor: pointer;
+}
+
+.generate-captcha {
+    margin-left: 10px;
+    background-color: var(--bg-color);
+    color: var(--dark-grey);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.generate-captcha:hover {
+    color: var(--light-grey);
+    cursor: pointer;
+}
+
+#captcha {
+    margin-left: 46px;
+    color: var(--light-grey);
+    font-size: 14px;
 }
