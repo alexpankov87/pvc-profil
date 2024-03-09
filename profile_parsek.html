@@ -471,9 +471,9 @@
                         </div>
                         <div class="captcha-input">
                             <div id="captcha"></div>
-                            <input class="captcha-input-place" type="text" id="userInput" placeholder="Введите символы из капчи">
+                            <input class="captcha-input-place" type="text" name="userInput" id="userInput" placeholder="Введите символы из капчи">
                             <input type="hidden" id="captchaValue">
-                            <button class="check-capthca" type="button" onclick="checkCaptcha()">Проверить капчу</button>
+                            <button class="check-capthca" id="checkCaptchaBtn" type="button" onclick="checkCaptcha()">Проверить капчу</button>
                             <button class="generate-captcha" type="button" onclick="generateCaptcha()">Обновить капчу</button>
                         </div>
                         <label for="feedback-checkbox" class="form-feedback-container-checkbox">
@@ -655,10 +655,12 @@
                 enableSubmitButton(); // Проверяем валидность формы после обновления капчи
             }
 
-            function checkCaptcha() {
+           function checkCaptcha() {
                 let isValid = checkFormValidity();
                 if (isValid) {
                     alert('Капча пройдена успешно!');
+                    // Активируем кнопку отправки формы
+                    document.getElementById('submitBtn').disabled = false;
                 } else {
                     alert('Пожалуйста, введите правильные символы из капчи, а также заполните все поля формы.');
                 }

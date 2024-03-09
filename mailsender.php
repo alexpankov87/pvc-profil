@@ -9,11 +9,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $name = htmlspecialchars($_POST["feedback-name"]);
     $phone = htmlspecialchars($_POST["feedback-phone"]);
+    $captcha = htmlspecialchars($_POST["userInput"]);
 
     $source_page = isset($_POST["source_page"]) ? htmlspecialchars($_POST["source_page"]) : "Unknown Page";
 
-    $from_email = "info@pvc-profil.kz"; 
+    $from_email = "info@pvc-profil.kz";
     $to_email = "admin@pvc-profil.kz"; 
+
     $subject = 'Новая заявка с формы';
 
     $message = "

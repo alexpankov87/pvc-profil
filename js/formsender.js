@@ -18,7 +18,7 @@ function submitForm() {
                             icon: "success",
                             title: "Успех",
                             text: "Форма успешно отправлена!",
-                            confirmButtonColor: '#ffd700',
+                            confirmButtonColor: '#ec6e18',
                             confirmButtonText: 'Окей'
                         });
                     } else {
