@@ -376,6 +376,68 @@ body {
    .captcha-input .captcha-input-place {
        width: 361px;
    }
+
+
+   .cheklist {
+    flex-direction: column;
+   }
+
+   .baget-img {
+       width: 100%;
+   }
+   .baget-first-block {
+     width: 100%;
+     margin-bottom: 30px;
+     margin-right: 0px;
+   }
+
+   .baget-second-block {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+   }
+
+   .baget-thee-block {
+       width: 100%;
+       height: 435px;
+       padding: 10px;
+       margin-right: 0px;
+   }
+
+    .baget-img-baget-list {
+        width: 185px;
+        height: 185px;
+    }
+
+    .check {
+        margin-top: 10px;
+    }
+
+    .check .check-approval {
+        margin-bottom: 10px;
+        width: 28%;
+    }
+
+
+    .check .check-cancel {
+        margin-bottom: 10px;
+        width: 23%;
+    }
+
+    .head-cheklist-title {
+        text-align: left;
+    }
+
+    .head-cheklist-title>h2 {
+        font-size: 23px;
+    }
+
+    .head-cheklist-title>img {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+  
 }
 
 
@@ -471,6 +533,15 @@ body {
 .captcha-input .captcha-input-place {
     width: 361px;
 }
+
+.baget-thee-block {
+    height: 455px;
+}
+
+.head-cheklist-title>h2 {
+    font-size: 20px;
+}
+
 }
 
 @media screen and (max-width: 375px) {
@@ -601,6 +672,10 @@ body {
    .captcha-input .captcha-input-place {
     width: 240px;
    }
+
+   .head-cheklist-title>h2 {
+       font-size: 19px;
+   }
 }
 
 @media screen and (min-width: 390px) and (max-width: 405px) {
@@ -727,6 +802,12 @@ body {
     .btn-order-call {
         padding: 20px 23px 20px 20px; 
         font-size: 14px;
+    }
+
+    .head-cheklist-title>img {
+        margin-right: 10px;
+        margin-left: 20px;
+        width: 50px;
     }
 }
 

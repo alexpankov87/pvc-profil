@@ -75,6 +75,31 @@
     .img-akchiya {
         width: 100%;
     }
+
+    .cheklist-section {
+        width: 100%;
+    }
+
+    .cheklist {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .baget-thee-block {
+        width: 347px;
+        margin-right: 0px;
+    }
+
+    .baget-first-block{
+        width: 347px;
+        margin-right: 10px;
+    }
+
+    .baget-second-block {
+        margin-right: 10px;
+    }
+
+
 }
 
  @media screen and (max-width: 768px) { 
@@ -204,4 +229,125 @@
    #navbar {
        justify-content: end;
    }
+
+   .cheklist-section {
+       width: 75%;
+        margin-left: 0px
+   }
+   .baget-second-block {
+        padding: 10px;
+        height: 370px;
+        width: 30%;
+        margin-right: 20px;
+   }
+   .baget {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 280px;
+   }
+
+  .baget-first-block {
+    height: 370px;
+    width: 30%;
+    margin-right: 20px;
+    padding-right: 5px;
+  }
+   .baget-thee-block {
+    width: 30%;
+    height: 370px;
+   }
+
+   .first-baget-text {
+    padding-left: 10px;
+   }
+
+   .baget-img>img {
+       object-fit: contain;
+       width: 60%;
+   }
+
+   .check {
+    margin-top: 0px;
+   }
+
+   .check .check-approval {
+       margin-bottom: 10px;
+       width: 24%;
+   }
+
+   .check .check-cancel {
+       margin-bottom: 10px;
+       width: 20%;
+   }
+
+   .check > img {
+    width: 25%;
+   }
+   .baget-img-baget-list {
+    width: 235px;
+    height: 185px;
+   }
+
+   .first-baget-text>p {
+        width: 100%; 
+       color: var(--light-grey);
+       font-size: 16px;
+   }
+   .first-baget-text .bg-span>span {
+       font-size: 15px;
+       color: var(--bg-color);
+       text-transform: uppercase;
+   }
+   .first-baget-text .bg-span {
+       background: #3431344a;
+       padding: 10px;
+       border-radius: 10px;
+       width: 100%;
+       box-shadow: 0px 2px 4px 1px #00000040;
+   }
+
+   .second-baget-text .bg-span>span {
+    font-size: 15px;
+   }
+
+   .second-baget-text .bg-span {
+    width: 100%;
+   }
+
+   .second-baget-text>p {
+    width: 100%;
+    margin-block-start: 10px;
+   }
+
+   .baget-img-baget-list {
+       width: 135px;
+       height: 115px;
+   }
+
+   .baget-3 {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+   }
+   .check-cancel {
+    width: 30%;
+   }
+
+   .three-baget-text .bg-span {
+    width: 100%;
+   }
+
+   .three-baget-text>p {
+    width: 100%;
+    margin-block-start: 10px;
+   }
+
+   .three-baget-text {
+       margin-top: 35px;
+   }
+
+   .head-cheklist-title>h2 {
+    font-size: larger;
+   }
+
  }
