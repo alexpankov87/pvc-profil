@@ -2607,8 +2607,9 @@ footer {
     margin-right: 50px;
     text-align: center;
     box-shadow: 1px 1px 4px 1px #00000045;
-    border-radius: 10px;
-    border: 5px solid #ec6e18;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 5px solid #ec6e18;
 
 }
 
@@ -2641,9 +2642,10 @@ footer {
     align-items: center;
     margin-right: 50px;
     box-shadow: 1px 1px 4px 1px #00000045;
-    border-radius: 10px;
     padding: 30px;
-    border: 5px solid #ec6e18;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 5px solid #ec6e18;
 }
 
 .second-baget-text {
@@ -2675,13 +2677,14 @@ footer {
     margin-right: 50px;
     text-align: center;
     box-shadow: 1px 1px 4px 1px #00000045;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 347px;
     height: 540px;
-    border: 5px solid #ec6d18;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 5px solid #ec6e18;
 }
 
 .baget-three-block {
