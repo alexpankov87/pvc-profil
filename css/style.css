@@ -2623,6 +2623,7 @@ footer {
     font-size: 16px;
     color: var(--bg-color);
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .first-baget-text > p {
@@ -2665,6 +2666,7 @@ footer {
     font-size: 16px;
     color: var(--bg-color);
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .baget-thee-block {
@@ -2709,6 +2711,7 @@ footer {
     font-size: 16px;
     color: var(--bg-color);
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .head-cheklist-title {
