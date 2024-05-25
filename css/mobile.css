@@ -73,6 +73,18 @@ body {
     overflow-x: hidden;
     }
 
+    .days-work>h4 {
+        color: var(--dark-grey);
+        font-size: 13px;
+    }
+
+    .lang-display {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+
     .grid-section {
         width: 100%;
         overflow-x: hidden;
