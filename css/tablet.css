@@ -11,6 +11,9 @@
 .img-akchiya {
     width: 80%;
 }
+   .dropdown {
+      background-color: none;
+   }
 }
 
 
@@ -99,6 +102,10 @@
         margin-right: 10px;
     }
 
+    .dropdown {
+        background-color: var(--bg-color);
+        border-radius: 12px;
+    }
 
 }
 
@@ -351,4 +358,8 @@
     font-size: larger;
    }
 
+    .dropdown {
+        background-color: var(--bg-color);
+        border-radius: 12px;
+    }
  }

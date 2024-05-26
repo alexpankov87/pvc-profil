@@ -80,7 +80,7 @@ body {
 
     .lang-display {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center
     }
@@ -449,6 +449,20 @@ body {
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    .lang-text {
+        display: none;
+    }
+
+    .dropbtn {
+        margin-right: 12px;
+        padding: 7px 7px;
+    }
+
+   .dropdown {
+    background-color: var(--bg-color);
+    border-radius: 12px;
+   }
   
 }
 
@@ -556,6 +570,20 @@ body {
 
 .three-baget-text>p {
     font-size: 20px;
+}
+
+.lang-text {
+    display: none;
+}
+
+.dropbtn {
+    margin-right: 12px;
+    padding: 7px 7px;
+}
+
+.dropdown {
+    background-color: var(--bg-color);
+    border-radius: 12px;
 }
 
 }
@@ -692,6 +720,19 @@ body {
    .head-cheklist-title>h2 {
        font-size: 19px;
    }
+   .lang-text {
+       display: none;
+   }
+
+    .dropbtn {
+        margin-right: 21px;
+        padding: 7px 7px;
+    }
+
+    .dropdown {
+        background-color: var(--bg-color);
+        border-radius: 12px;
+    }
 }
 
 @media screen and (min-width: 390px) and (max-width: 405px) {
@@ -824,6 +865,21 @@ body {
         margin-right: 10px;
         margin-left: 20px;
         width: 50px;
+    }
+
+    .lang-text {
+        display: none;
+    }
+
+    .dropbtn {
+        margin-right: 31px;
+        padding: 7px 7px;
+    }
+
+
+    .dropdown {
+        background-color: var(--bg-color);
+        border-radius: 12px;
     }
 }
 
