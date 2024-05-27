@@ -35,5 +35,6 @@ function setLanguage(language) {
 
             // Устанавливаем начальный язык при загрузке страницы
             document.addEventListener('DOMContentLoaded', () => {
-                setLanguage('ru'); // Можно изменить на 'ru' для начального русского языка
+                const language = localStorage.getItem('language') || 'ru';
+                setLanguage(language);
             });
